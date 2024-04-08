@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Заказ пиццы</title>
+    <link
+      rel="shortcut icon"
+      href="./img/free-icon-pizza-4058718.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="orderForm">
+        <div class="orderForm__yourChoice">
+          <div class="orderForm__composition">
+            <h1 class="orderForm__title">Ваша пицца</h1>
+            <ol class="orderForm__ingredientsYourPizza"></ol>
+            <div class="orderForm__price">
+              Цена: <span class="orderForm__price-new">0$</span>
+            </div>
+          </div>
+          <div class="orderForm__result">
+            <div class="orderForm__completionPercentage">
+              <div class="orderForm__part"></div>
+              <div class="orderForm__part"></div>
+              <div class="orderForm__part"></div>
+              <div class="orderForm__part"></div>
+            </div>
+            <button disabled class="orderForm__submit">Заказать</button>
+          </div>
+        </div>
+        <div class="orderForm__ingredients ingredients">
+          <div class="ingredients__item item1">
+            <h3 class="ingredients__name">Основа</h3>
+            <ul class="ingredients__elements base"></ul>
+          </div>
+          <div class="ingredients__item item2">
+            <h3 class="ingredients__name">Набор ингредиентов</h3>
+            <ul class="ingredients__elements ingredient1"></ul>
+          </div>
+          <div class="ingredients__item item3">
+            <h3 class="ingredients__name">Набор веганский</h3>
+            <ul class="ingredients__elements ingredient2"></ul>
+          </div>
+          <div class="ingredients__item item4">
+            <h3 class="ingredients__name">Соус</h3>
+            <ul class="ingredients__elements sauce"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
